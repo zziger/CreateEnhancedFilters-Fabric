@@ -13,7 +13,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(FilterItemStack.class)
 public class FilterItemStackMixin {
-	@Inject(method = "of(Lnet/minecraft/world/item/ItemStack;)Lcom/simibubi/create/content/logistics/filter/FilterItemStack;", at = @At("HEAD"), cancellable = true, remap = false)
+	@SuppressWarnings({"MixinAnnotationTarget", "UnresolvedMixinReference"})
+	@Inject(method = "of(Lnet/minecraft/class_1799;)Lcom/simibubi/create/content/logistics/filter/FilterItemStack;", at = @At("HEAD"), cancellable = true, remap = false)
 	private static void injectMethod(ItemStack itemStack, CallbackInfoReturnable<FilterItemStack> info) {
 		if (CreateEnhancedFilters.DURABILITY_FILTER_ITEM.isIn(itemStack))
 		{

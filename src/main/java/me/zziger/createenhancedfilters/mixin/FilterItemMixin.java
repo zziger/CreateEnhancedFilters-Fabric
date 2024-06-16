@@ -28,19 +28,20 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+@SuppressWarnings({"MixinAnnotationTarget", "UnresolvedMixinReference"})
 @Mixin(FilterItem.class)
 public class FilterItemMixin implements EnhancedFilterItem {
 	@Unique
 	EnhancedType enhancedType = EnhancedType.NONE;
 
-	@Inject(method = "makeSummary(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;", at = @At("HEAD"), cancellable = true)
+	@Inject(method = "makeSummary(Lnet/minecraft/class_1799;)Ljava/util/List;", at = @At("HEAD"), cancellable = true, remap = false)
 	private void makeSummary(ItemStack filter, CallbackInfoReturnable<List<Component>> cir) {
 		if (enhancedType == EnhancedType.DURABILITY) {
 			cir.setReturnValue(DurabilityFilterItemStack.makeSummary(filter));
 		}
 	}
 
-	@Inject(method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", at = @At("HEAD"), cancellable = true)
+	@Inject(method = "createMenu(ILnet/minecraft/class_1661;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1703;", at = @At("HEAD"), cancellable = true, remap = false)
 	private void createMenu(int id, Inventory inv, Player player, CallbackInfoReturnable<AbstractContainerMenu> cir) {
 		ItemStack heldItem = player.getMainHandItem();
 		if (enhancedType == EnhancedType.DURABILITY)
