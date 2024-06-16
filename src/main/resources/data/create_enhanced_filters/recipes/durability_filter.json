@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "c:zinc_nuggets"
+    },
+    "S": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "ASA"
+  ],
+  "result": {
+    "item": "create_enhanced_filters:durability_filter"
+  }
+}

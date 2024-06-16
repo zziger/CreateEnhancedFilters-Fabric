@@ -1,0 +1,17 @@
+{
+  "item.create_enhanced_filters.durability_filter": "Фильтр прочности",
+  "create_enhanced_filters.gui.durability_filter.allow_list": "Белый список",
+  "create_enhanced_filters.gui.durability_filter.allow_list.description": "Прежметы проходят если они соотвествуют выбранному условию",
+  "create_enhanced_filters.gui.durability_filter.deny_list": "Чёрный список",
+  "create_enhanced_filters.gui.durability_filter.deny_list.description": "Прежметы проходят если они НЕ соотвествуют выбранному условию",
+  "create_enhanced_filters.gui.durability_filter.include_non_damageable": "Включить предметы без прочности",
+  "create_enhanced_filters.gui.durability_filter.include_non_damageable.description": "Предметы, которые не могут иметь прочность, будут подходить под условие",
+  "create_enhanced_filters.gui.durability_filter.ignore_non_damageable": "Не включать предметы без прочности",
+  "create_enhanced_filters.gui.durability_filter.ignore_non_damageable.description": "Предметы, которые не могут иметь прочность, НЕ будут подходить под условие",
+  "create_enhanced_filters.gui.durability_filter.threshold": "Порог",
+  "create_enhanced_filters.gui.durability_filter.operation": "Действие",
+  "create_enhanced_filters.gui.durability_filter.unit": "Единица",
+  "create_enhanced_filters.gui.durability_filter.pt": "ед.",
+  "create_enhanced_filters.gui.durability_filter.non_damageable": "Предметы без прочности",
+  "create_enhanced_filters.gui.durability_filter.items_with": "Предметы с прочностью %s %d%s"
+}

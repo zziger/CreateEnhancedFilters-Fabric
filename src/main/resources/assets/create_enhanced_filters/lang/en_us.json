@@ -1,0 +1,17 @@
+{
+  "item.create_enhanced_filters.durability_filter": "Durability Filter",
+  "create_enhanced_filters.gui.durability_filter.allow_list": "Allow-List",
+  "create_enhanced_filters.gui.durability_filter.allow_list.description": "Items pass if they match the selected condition",
+  "create_enhanced_filters.gui.durability_filter.deny_list": "Deny-List",
+  "create_enhanced_filters.gui.durability_filter.deny_list.description": "Items pass if they do NOT match the selected condition",
+  "create_enhanced_filters.gui.durability_filter.include_non_damageable": "Include non-damageable",
+  "create_enhanced_filters.gui.durability_filter.include_non_damageable.description": "Treat non-damageable items like they are passing the condition",
+  "create_enhanced_filters.gui.durability_filter.ignore_non_damageable": "Do not include non-damageable",
+  "create_enhanced_filters.gui.durability_filter.ignore_non_damageable.description": "Treat non-damageable items like they are NOT passing the condition",
+  "create_enhanced_filters.gui.durability_filter.threshold": "Threshold",
+  "create_enhanced_filters.gui.durability_filter.operation": "Operation",
+  "create_enhanced_filters.gui.durability_filter.unit": "Unit",
+  "create_enhanced_filters.gui.durability_filter.pt": "pt.",
+  "create_enhanced_filters.gui.durability_filter.non_damageable": "Non-damageable items",
+  "create_enhanced_filters.gui.durability_filter.items_with": "Items with durability %s %d %s"
+}

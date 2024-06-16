@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "create_enhanced_filters",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create Enhanced Filters",
+  "description": "Mod adding additional types of filters to Create",
   "authors": [
-    "Me!"
+    "zziger"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/zziger/CreateEnhancedFilters-Fabric"
   },
-  "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/create_enhanced_filters/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "me.zziger.createenhancedfilters.CreateEnhancedFilters"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "create_enhanced_filters.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

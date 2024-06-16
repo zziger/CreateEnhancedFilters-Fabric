@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_enhanced_filters:durability_filter"
+    }
+  ],
+  "result": {
+    "item": "create_enhanced_filters:durability_filter"
+  }
+}
